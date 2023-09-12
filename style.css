@@ -1,0 +1,157 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: #ddb7aa;
+    padding: 10px 20px 0px;
+}
+
+.header {
+    background-color: #f0d9d1;
+    min-height: 150px;
+}
+
+.content {
+    background-color: #f2eeeb;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #989c83;
+    min-height: 150px;
+}
+
+.imagem_clinica {
+    width: 1000px;
+}
+
+.imagem_atendimento {
+
+    width: 1000px;
+}
+
+.imagem_cntt {
+    width: 1000px;
+}
+
+.imagem_sobre {
+    width: 1000px;
+}
+
+.imagem_procedimento {
+    width: 300px;
+}
+
+.imagem_procedimento2 {
+    width: 300px;
+}
+
+.imagem_horario {
+    width: 300px;
+}
+
+.img1 {
+    display: inline-block;
+}
+
+.name {
+    display: inline-block;
+    margin-left: 50px;
+    position: fixed;
+    color: #989c83;
+    max-width: 400px;
+
+}
+
+.bt {
+    background-color: #f1f1f1;
+    border-color: #989c83;
+    border-style: solid;
+    border-width: 2px;
+    color: #989c83;
+    padding: 6px;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+
+    transition: background-color 0.15s,
+        color 0.15s;
+}
+
+.bt:hover {
+    background-color: #989c83;
+    color: #f1f1f1;
+}
+
+.bt:active {
+    opacity: 0.8;
+}
+
+a:link {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #5e6150;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #223022;
+    text-decoration: underline;
+}
+
+.redes {
+    text-align: center;
+    padding: 40px;
+}
+
+.tabela_de_horarios {
+    width: 500px;
+    border: none;
+    background-color: #dedfdd;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.head {
+    font-weight: bold;
+    text-align: center;
+}
+
+.cntt {
+    box-sizing: border-box;
+    display: inline-block
+}
